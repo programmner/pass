@@ -1,0 +1,89 @@
+*{
+   padding:0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#261DD6; 
+}
+.main{
+	background-color: lime;
+	width: 25vw;
+	border-radius:5px ;
+	box-shadow:20px 20px 20px;
+	height: 50%;
+}
+@media (max-width:600px){
+   .check h3{
+   	font-size: 4vw;
+   }
+    .b button{
+    	padding: 1.5vw 5vw;
+    }
+	.main{
+		width: 45vw;
+	}
+		h2{
+		margin-top:1vw;
+	}
+	.check input{
+		margin-bottom: 3vw
+	}
+}
+
+
+.out{
+	width: 100%;
+	height:70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.out input{
+	margin-top:1vw;
+	width:80%;
+	font-size:14px;
+	font-weight: 600;
+	padding:1vw 1vw;
+}
+.check{
+	display: flex;
+	width:40%;
+	align-items: center;
+	justify-content: center;
+	
+	flex-direction: column;
+}
+.left{
+	padding-left:10px;
+	width:60%;
+	padding-bottom: 12px;
+
+}
+h2{margin-bottom:1vw ;}
+.div{
+	display: flex;
+}
+.check .number{
+	width:40%;
+}
+input{
+	margin-bottom:2vw ;
+}
+button{
+	padding:1vw 3vw;
+
+}
+.b{display:flex;
+justify-content: center;
+}
+h3{
+	font-size:2.8vw;
+	margin-bottom: 1vw
+}
+
